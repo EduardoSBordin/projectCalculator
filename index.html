@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <section id="main">
+        <div id="divResult">
+        <p></p>
+        </div>
+
+        <div id="tablE">
+        <table>
+
+            <tr>
+                <td><button onclick="getNumbers('7')"  id="num7">7</button></td>
+                <td><button onclick="getNumbers('8')"  id="num8">8</button></td>
+                <td><button onclick="getNumbers('9')"  id="num9">9</button></td>
+                <td><button onclick="btnDelete()" id="delete">C</button></td>
+            </tr>
+            
+            <tr>
+                <td><button onclick="getNumbers('4')" id="num4">4</button></td>
+                <td><button onclick="getNumbers('5')"  id="num5">5</button></td>
+                <td><button onclick="getNumbers('6')"  id="num6">6</button></td>
+                <td><button onclick="btnDeleteOne()" id="btndeleteOne"><</button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="getNumbers('1')"  id="num1">1</button></td>
+                <td><button onclick="getNumbers('2')"  id="num2">2</button></td>
+                <td><button onclick="getNumbers('3')"  id="num3">3</button></td>
+                <td><button onclick="getNumbers('*')" id="btnMultiple">x</button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="getNumbers('0')"  id="num0">0</button></td>
+                <td><button onclick="getNumbers('+')" id="btnPlus">+</button></td>
+                <td><button onclick="getNumbers('-')" id="btnLow">-</button></td>
+                <td><button id="btnResult">=</button></td>
+            </tr>
+        </table>
+    
+    <h3>Developed by Eduardo Bordin</h3>
+    </div>
+    </section>
+    
+<script src="script.js"></script>
+</body>
+</html>
