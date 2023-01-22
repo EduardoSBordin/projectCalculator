@@ -1,10 +1,11 @@
 body{
-    background-image: linear-gradient(to right bottom, #f7ffbe, #f6fb9c, #f7f678, #faef4f, #ffe800);
-    background-attachment: fixed;
+    /*background-image: linear-gradient(to right bottom, #f7ffbe, #f6fb9c, #f7f678, #faef4f, #ffe800);
+    */background-attachment: fixed;
+    background: rgb(255, 227, 86);
 }   
 #main{
 
-    background-color: #f8f8f87e;
+    background-color: #f8f8f800;
     width: 400px;
     height: 420px;
     margin: auto;
